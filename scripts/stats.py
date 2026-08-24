@@ -87,14 +87,25 @@ def main():
     else:
         start = (date.today() - timedelta(days=int(arg))).isoformat()
     end = date.today().isoformat()
-    rng = {"start": start, "end": end}
+    # GoatCounter の end は「その日を含まない」扱いなので、翌日を渡さないと
+    # 当日ぶんが丸ごと抜け落ちる（total だけ 0 になって気づきにくい）
+    rng = {"start": start, "end": (date.today() + timedelta(days=1)).isoformat()}
 
     print(f"═══ アクセス解析  {start} 〜 {end} ═══")
 
     total = api(site, token, "stats/total", rng)
-    tv, tu = total.get("total", 0), total.get("total_unique", 0)
+    tv = total.get("total", 0) or total.get("total_utc", 0)
     days = (date.fromisoformat(end) - date.fromisoformat(start)).days or 1
-    print(f"\n  閲覧 {tv:,} 回 / 訪問者 {tu:,} 人   （1日あたり {tv/days:.1f} 回）")
+    print(f"\n  閲覧 {tv:,} 回   （1日あたり {tv/days:.1f} 回）")
+
+    # 日別の推移。投稿直後に跳ねて、その後どう落ち着くかが見たい
+    daily = [(d["day"], d.get("daily", 0)) for d in total.get("stats", [])]
+    if any(c for _, c in daily):
+        today = date.today().isoformat()
+        shown = [(d, c) for d, c in daily if d <= today]
+        # 最初にアクセスがあった日より前は出さない（公開前の 0 が並ぶだけなので）
+        first = next((i for i, (_, c) in enumerate(shown) if c), 0)
+        section("日別", shown[first:][-14:])
 
     # 流入元 ── どこから来たかが、このサイトでは一番重要
     refs = api(site, token, "stats/toprefs", rng).get("stats", [])

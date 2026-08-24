@@ -268,6 +268,8 @@ python3 scripts/stats.py 7      # 直近7日
 ```
 
 トークンを作り直したときは、このファイルの `GOATCOUNTER_TOKEN` を差し替えてください。
+発行画面（Settings → API tokens）の**「統計の読み取り」にチェックが要ります**。
+サイト設定ページにある Secret token とは別物で、そちらでは 401 になります。
 
 ---
 
