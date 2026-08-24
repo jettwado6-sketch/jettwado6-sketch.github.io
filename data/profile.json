@@ -1,0 +1,210 @@
+{
+ "_comment": "このファイルは手で編集します。自動更新の対象外です。",
+ "name": "小谷 祐樹",
+ "nameEn": "Yuki Kotani",
+ "nameKana": "こたに ゆうき",
+ "tagline": "集中治療を、面白く。",
+ "affiliation": "集中治療医 ／ 亀田総合病院 集中治療科",
+ "photo": "assets/profile.jpg",
+ "location": "千葉県鴨川市",
+ "email": "kotani.yuki@kameda.jp",
+ "orcid": "0000-0002-9532-2859",
+ "intro": [
+  "集中治療に興味を持つ人は増えてきました。\nでも実際にやってみる人は少ないです。",
+  "いくつかの理由があると思いますが、一番大きいのは「よくわからない」ということじゃないでしょうか。\n大学でも学ぶ機会が少ないですし、初期研修でも出会わないことが多い。",
+  "だから、研修中に重症の患者さんを担当して興味が出てきても、「その道に進む」という選択まではしづらい。",
+  "集中治療医として働く中で得た経験を伝えることで、「よくわからない」を少しずつ減らしていく。\nそして、「面白い」と感じてもらう。",
+  "そんな変化を願いながら、日々話したり書いたりしています。"
+ ],
+ "highlights": [
+  {
+   "label": "専門医",
+   "detail": "集中治療専門医／救急科専門医"
+  },
+  {
+   "label": "関心領域",
+   "detail": "重症患者の循環動態管理・気管挿管・鎮静"
+  },
+  {
+   "label": "イタリア留学",
+   "detail": "Vita-Salute San Raffaele University（ミラノ）2022–2024"
+  },
+  {
+   "label": "ポッドキャスト",
+   "detail": "「ICUトーク」毎週配信／「小谷祐樹とICU」毎日配信"
+  }
+ ],
+ "career": [
+  {
+   "period": "2024/9 –",
+   "org": "亀田総合病院 集中治療科",
+   "role": "部長代理"
+  },
+  {
+   "period": "2023/7 –",
+   "org": "亀田医療大学 総合研究所",
+   "role": "客員研究員"
+  },
+  {
+   "period": "2022/4 – 2024/3",
+   "org": "Vita-Salute San Raffaele University（ミラノ、イタリア）",
+   "role": "Visiting Researcher"
+  },
+  {
+   "period": "2020/4 – 2024/8",
+   "org": "亀田総合病院 集中治療科",
+   "role": "医長"
+  },
+  {
+   "period": "2018/4 – 2020/3",
+   "org": "亀田総合病院 集中治療科",
+   "role": "フェロー"
+  },
+  {
+   "period": "2015/4 – 2018/3",
+   "org": "日本赤十字社和歌山医療センター 救急集中治療部",
+   "role": "後期研修医"
+  },
+  {
+   "period": "2013/4 – 2015/3",
+   "org": "日本赤十字社和歌山医療センター",
+   "role": "初期研修医"
+  },
+  {
+   "period": "2007/4 – 2013/3",
+   "org": "京都大学 医学部 医学科",
+   "role": "卒業"
+  }
+ ],
+ "links": [
+  {
+   "id": "x",
+   "name": "X",
+   "handle": "@YukiKotani5",
+   "url": "https://x.com/YukiKotani5",
+   "desc": "ICU、研究、Podcast、キャリアのことをつぶやきます。",
+   "primary": true
+  },
+  {
+   "id": "youtube",
+   "name": "YouTube",
+   "handle": "ICUトーク",
+   "url": "https://www.youtube.com/@ICU%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%9C",
+   "desc": "ポッドキャスト「ICUトーク」のYouTube版です。",
+   "primary": true
+  },
+  {
+   "id": "spotify",
+   "name": "Spotify",
+   "handle": "ICUトーク",
+   "url": "https://open.spotify.com/show/5iOPW5fnrKbNqm5vHe1jRj",
+   "desc": "ポッドキャスト「ICUトーク」のSpotify版です。",
+   "primary": true
+  },
+  {
+   "id": "amazonmusic",
+   "name": "Amazon Music",
+   "handle": "ICUトーク",
+   "url": "https://music.amazon.co.jp/podcasts/79a9b3e3-56fc-4b0a-9c7d-2abb002ecd69/icu%E3%83%88%E3%83%BC%E3%82%AF",
+   "desc": "「ICUトーク」のAmazon Music版です。"
+  },
+  {
+   "id": "voicy",
+   "name": "Voicy",
+   "handle": "小谷祐樹とICU",
+   "url": "https://voicy.jp/channel/848405",
+   "desc": "Voicyでのひとりポッドキャスト。毎日配信しています。",
+   "primary": true
+  },
+  {
+   "id": "note",
+   "name": "note",
+   "handle": "小谷祐樹",
+   "url": "https://note.com/yukikotani5",
+   "desc": "Xやポッドキャストでの話題を、さらに深めて文字にします。",
+   "primary": true
+  },
+  {
+   "id": "researchmap",
+   "name": "researchmap",
+   "handle": "ykotani5",
+   "url": "https://researchmap.jp/ykotani5",
+   "desc": "研究者情報の公式プロフィールです。"
+  },
+  {
+   "id": "orcid",
+   "name": "ORCID",
+   "handle": "0000-0002-9532-2859",
+   "url": "https://orcid.org/0000-0002-9532-2859",
+   "desc": "論文業績の国際的な識別子です。"
+  },
+  {
+   "id": "facebook",
+   "name": "Facebook",
+   "handle": "yuki.kotani.1656",
+   "url": "https://www.facebook.com/yuki.kotani.1656",
+   "desc": "友達申請は、直接知り合った方々に限定しています。"
+  },
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "handle": "@yukikotani5",
+   "url": "https://www.instagram.com/yukikotani5/",
+   "desc": "友達申請は、直接知り合った方々に限定しています。"
+  }
+ ],
+ "requestTypes": [
+  "講演・セミナー",
+  "原稿・執筆",
+  "取材・インタビュー",
+  "ポッドキャスト出演",
+  "研究・共同研究のご相談",
+  "キャリア・留学のご相談",
+  "番組や記事の感想",
+  "その他"
+ ],
+ "activityGroups": [
+  {
+   "title": "資格",
+   "items": [
+    "集中治療専門医（日本集中治療医学会）",
+    "救急科専門医（日本救急医学会）"
+   ]
+  },
+  {
+   "title": "学位",
+   "items": [
+    "東京女子医科大学 集中治療医学 大学院（博士課程）　2025/5 –"
+   ]
+  },
+  {
+   "title": "学会活動",
+   "items": [
+    "日本集中治療医学会 評議員　2024/4 –",
+    "European Society of Intensive Care Medicine, Social Media & Digital Content Committee　2023/4 – 2025/3",
+    "日本版敗血症診療ガイドライン2024特別委員会（Adhoc） ワーキンググループ メンバー　2023/4 – 2025/3"
+   ]
+  },
+  {
+   "title": "研究助成",
+   "items": [
+    "日本集中治療医学会 CTG委員会 臨床研究助成金（2024年度）　低血圧患者における血漿レニン濃度の動態と予後予測能：多施設前向きコホート研究"
+   ]
+  }
+ ],
+ "offers": [
+  {
+   "who": "進路に迷っているとき",
+   "body": "「キャリアで迷っている」「留学したいけど、何から考えればいいか分からない」「ICUに興味はあるけど、どんなところか知らない」。分からないままで構いません。答えは人それぞれ違っていいはずなので、自分なりの答えを一緒に考えられたらと思います。"
+  },
+  {
+   "who": "書き手を探しているとき",
+   "body": "集中治療の臨床（循環管理・気管挿管・鎮静）、エビデンスの読み方、臨床研究のはじめ方などを書いています。どんな企画なのか、どんな方に届けたいのかを伺うところから始められたら嬉しいです。"
+  },
+  {
+   "who": "話し手を探しているとき",
+   "body": "循環管理（ショックの循環生理、心原性ショック、敗血症性ショック）、重症患者のフェーズの捉え方、内科的視点と集中治療、臨床研究のはじめ方（リサーチクエスチョン、メンター、論文の書き方）といったテーマで話しています。医療組織の働き方や、「できる／できない」で人を測ることについても、対談などで扱ってきました。"
+  }
+ ],
+ "roles": "集中治療医・臨床研究者・ポッドキャスター"
+}

@@ -1,0 +1,64 @@
+name: サイトの自動更新
+
+# ① 毎日 朝6時（日本時間）に論文・ポッドキャスト・noteを取り込む
+# ② GitHub の Actions タブから手動でも実行できる
+# ③ main ブランチに変更を push したときも走る
+on:
+  schedule:
+    - cron: "0 21 * * *"      # UTC 21:00 = JST 翌朝 6:00
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write             # 更新したJSONをコミットするため
+  pages: write                # GitHub Pages に公開するため
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 外部APIが一時的に落ちていても、サイト自体は前回のデータで公開し続ける
+      - name: 最新データを取得
+        id: fetch
+        continue-on-error: true
+        run: python3 scripts/update.py
+
+      - name: 変更があればコミット
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "データ自動更新: $(date -u '+%Y-%m-%d')"
+            git push
+            echo "更新をコミットしました"
+          else
+            echo "変更はありませんでした"
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      # 取得に失敗していたら、ジョブを失敗扱いにして気づけるようにする
+      # （サイトは前回データのまま公開されているので、表示は壊れません）
+      - name: 取得失敗を通知
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::warning::一部のデータ取得に失敗しました。サイトは前回のデータで公開されています。"
+          exit 1

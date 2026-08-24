@@ -1,0 +1,33 @@
+{
+ "_comment": [
+  "取材・インタビューの一覧です。このファイルは手で編集します（自動更新の対象外）。",
+  "※ 商業誌での原稿執筆は data/writings.json に分けています。",
+  "新しい取材を受けたらここに1ブロック足してください。date の新しい順に並びます。",
+  "",
+  "書き方:",
+  "  { \"date\": \"2026-08-11\", \"outlet\": \"媒体名\", \"title\": \"記事タイトル\",",
+  "    \"url\": \"https://...\", \"type\": \"インタビュー\", \"excerpt\": \"一言紹介（省略可）\" }",
+  "",
+  "type は次のどれかを推奨: インタビュー / 対談 / 出演 / 掲載",
+  "url を書いておけば、記事ページの OGP 画像を update.py が自動で取り込みます。"
+ ],
+ "items": [
+  {
+   "date": "2026-08-11",
+   "outlet": "医学界新聞 第3588号（医学書院）",
+   "title": "「I may be wrong」の精神でいこう！ 医療組織の「曖昧な能力主義」をひもとく",
+   "url": "https://www.igaku-shoin.co.jp/paper/archive/y2026/3588_02",
+   "type": "対談",
+   "excerpt": "教育社会学者の勅使川原真衣さんとの対談。「できる／困った」と若手を色分けしてしまう、医療組織の曖昧な能力主義について話しました。",
+   "image": "https://www.igaku-shoin.co.jp/application/files/2717/8582/3092/3588_0201.jpg"
+  },
+  {
+   "date": "2024-03-26",
+   "outlet": "日本集中治療医学会",
+   "title": "TO JOIN THE INTENSIVE CARE TEAM インタビュー 小谷 祐樹",
+   "url": "https://www.jsicm.org/certification/interview/kotani/",
+   "type": "インタビュー",
+   "excerpt": "集中治療医を志したきっかけ、イタリア留学、多職種チームで診ることの面白さについて話しました。"
+  }
+ ]
+}

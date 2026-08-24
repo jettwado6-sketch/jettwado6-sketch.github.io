@@ -1,0 +1,55 @@
+{
+ "updatedAt": "2026-08-24T04:03:42+00:00",
+ "youtube": {
+  "latest": {
+   "label": "最新回",
+   "title": "#85 挿管前に「抜けない可能性」も話す？Time limited trialについて【お便り回答】",
+   "url": "https://www.youtube.com/watch?v=oUu72G0_1ew",
+   "thumbnail": "https://i.ytimg.com/vi/oUu72G0_1ew/mqdefault.jpg",
+   "metric": "198 回再生"
+  },
+  "popular": {
+   "label": "よく聴かれている回",
+   "title": "#47 ICUでの心臓血管外科術後管理",
+   "url": "https://www.youtube.com/watch?v=poxn31ixoFE",
+   "thumbnail": "https://i.ytimg.com/vi/poxn31ixoFE/mqdefault.jpg",
+   "metric": "2,327 回再生"
+  }
+ },
+ "note": {
+  "latest": {
+   "label": "最新記事",
+   "title": "そのモヤモヤ、きっと自分だけじゃない",
+   "url": "https://note.com/yukikotani5/n/n4b8a05ac4fc5",
+   "thumbnail": "https://assets.st-note.com/production/uploads/images/303429483/rectangle_large_type_2_9d47f1028dc034fac40d5efe95545fc3.png?fit=bounds&quality=85&width=1280",
+   "date": "2026-08-14",
+   "metric": null
+  },
+  "popular": {
+   "label": "よく読まれている記事",
+   "title": "イタリア留学で学んだ「外国人が返したくなる」メール術",
+   "url": "https://note.com/yukikotani5/n/n4ebd34dbc84f",
+   "thumbnail": "https://assets.st-note.com/production/uploads/images/170708121/rectangle_large_type_2_a56247df82186389ec3fe9ffd878a30e.png?fit=bounds&quality=85&width=1280",
+   "date": "2025-01-19",
+   "metric": "スキ 64"
+  }
+ },
+ "voicy": {
+  "latest": {
+   "label": "最新話",
+   "title": "【ARDS60周年⑦】腹臥位療法の肺・右室への効果",
+   "url": "https://voicy.jp/channel/848405/8135568",
+   "date": "2026-08-24",
+   "metric": null,
+   "thumbnail": null
+  },
+  "popular": {
+   "label": "よく聴かれている話",
+   "title": "古くて新しいメイロン®︎",
+   "url": "https://voicy.jp/channel/848405/7117573",
+   "date": "2025-09-26",
+   "metric": "435 回再生",
+   "thumbnail": null
+  }
+ }
+}

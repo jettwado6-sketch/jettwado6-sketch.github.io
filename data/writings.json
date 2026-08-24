@@ -1,0 +1,127 @@
+{
+ "_comment": [
+  "日本語で書いた論文・記事の一覧です。このファイルは手で編集します（自動更新の対象外）。",
+  "英文論文は PubMed / ORCID から自動取得しており、こちらには含めません。",
+  "書誌情報は CiNii Research（cir.nii.ac.jp）で確認したものです。",
+  "",
+  "kind は次のどれか: 和文論文 / 寄稿 / 解説 / 総説 / 特集企画",
+  "  ※「特集企画」は自分で章を書かず、特集全体を組み立てた場合に使います。",
+  "",
+  "書き方:",
+  "  { \"date\": \"2026-02\", \"kind\": \"解説\", \"journal\": \"誌名\", \"publisher\": \"出版社\",",
+  "    \"citation\": \"30(2):159-166\", \"feature\": \"特集名（省略可）\",",
+  "    \"title\": \"記事タイトル\", \"authors\": \"著者名を順番どおり\", \"url\": \"https://…（省略可）\" }"
+ ],
+ "items": [
+  {
+   "date": "2026-08",
+   "kind": "特集企画",
+   "journal": "Intensive Care NEXT",
+   "publisher": "医学図書出版（日本集中治療医学会 準機関誌）",
+   "citation": "51(2)",
+   "feature": "",
+   "title": "10年後も活きる気道管理の考え方",
+   "authors": "武田親宗, 小谷祐樹（特集企画）",
+   "url": "https://igakutosho.co.jp/collections/magazine-intensive_care_next/products/ic_5102"
+  },
+  {
+   "date": "2026-02",
+   "journal": "Heart View",
+   "publisher": "メジカルビュー社",
+   "citation": "30(2):159-166",
+   "feature": "特集 最強の心原性ショックチームを作ろう ～HOT TOPICS編～",
+   "title": "混合性ショック：実践的アプローチ",
+   "authors": "芥川晃也, 小谷祐樹",
+   "url": "https://cir.nii.ac.jp/crid/1520588832865689984",
+   "kind": "解説"
+  },
+  {
+   "date": "2025-07",
+   "journal": "レジデントノート",
+   "publisher": "羊土社",
+   "citation": "27(6):1132-1137",
+   "feature": "",
+   "title": "SNSで広がる医学情報：受けとりと発信のコツ",
+   "authors": "小谷祐樹",
+   "url": "https://cir.nii.ac.jp/crid/1520305112903816448",
+   "kind": "寄稿"
+  },
+  {
+   "date": "2025-03",
+   "kind": "寄稿",
+   "journal": "医学界新聞 第3571号",
+   "publisher": "医学書院",
+   "citation": "",
+   "feature": "FAQ",
+   "title": "医師が留学したいと思ったら最初に考えるべき3つの問い",
+   "authors": "小谷祐樹",
+   "url": "https://www.igaku-shoin.co.jp/paper/archive/y2025/3571_04"
+  },
+  {
+   "date": "2025-01",
+   "journal": "Intensive Care NEXT",
+   "publisher": "医学図書出版（日本集中治療医学会 準機関誌）",
+   "citation": "50(1):4-11",
+   "feature": "",
+   "title": "輸液のフェーズ",
+   "authors": "小谷祐樹",
+   "url": "https://cir.nii.ac.jp/crid/1520307501841467392",
+   "kind": "解説"
+  },
+  {
+   "date": "2025-01",
+   "journal": "Intensive Care NEXT",
+   "publisher": "医学図書出版（日本集中治療医学会 準機関誌）",
+   "citation": "50(1):50-60",
+   "feature": "",
+   "title": "蘇生輸液の製剤選択",
+   "authors": "後村朋美, 小谷祐樹",
+   "url": "https://cir.nii.ac.jp/crid/1520870451795058304",
+   "kind": "解説"
+  },
+  {
+   "date": "2024-04",
+   "journal": "INTENSIVIST",
+   "publisher": "メディカル・サイエンス・インターナショナル",
+   "citation": "16(2):299-302",
+   "feature": "特集 ショックのPatient Journey（Closing Remark）",
+   "title": "ショック管理の未来：Beyond journey's end",
+   "authors": "小谷祐樹",
+   "url": "https://cir.nii.ac.jp/crid/1390863329520424448",
+   "kind": "解説"
+  },
+  {
+   "date": "2024-04",
+   "journal": "INTENSIVIST",
+   "publisher": "メディカル・サイエンス・インターナショナル",
+   "citation": "16(2):223-235",
+   "feature": "特集 ショックのPatient Journey",
+   "title": "敗血症性ショック：蘇生 — step beyond SSCG 2021、最新のエビデンスをふまえたベストプラクティス",
+   "authors": "柴田泰佑, 小谷祐樹",
+   "url": "https://cir.nii.ac.jp/crid/1390018904590289536",
+   "kind": "解説"
+  },
+  {
+   "date": "2021-07",
+   "journal": "INTENSIVIST",
+   "publisher": "メディカル・サイエンス・インターナショナル",
+   "citation": "13(3):493-503",
+   "feature": "特集 COVID-19（ICUにおけるパンデミック対策）",
+   "title": "COVID-19の病態生理：サイトカインストームと凝固機能障害を考える",
+   "authors": "小谷祐樹, 林淑朗",
+   "url": "https://cir.nii.ac.jp/crid/1390851950117259392",
+   "kind": "解説"
+  },
+  {
+   "date": "2021-05",
+   "kind": "和文論文",
+   "journal": "日本集中治療医学会雑誌",
+   "publisher": "日本集中治療医学会",
+   "citation": "28(3):180-188",
+   "feature": "",
+   "title": "アンケートを用いた質の高い調査研究を行うための手引き",
+   "authors": "小谷祐樹, 川口敦, 志馬伸朗",
+   "url": "https://cir.nii.ac.jp/crid/1390006432293998464"
+  }
+ ]
+}
