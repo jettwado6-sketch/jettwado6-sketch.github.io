@@ -32,10 +32,21 @@ GitHub Pages で公開する場合：
 リポジトリ `yukikotani5/yukikotani5.github.io` の main ブランチに push すると、
 GitHub Actions が自動でデプロイします。毎朝6時（日本時間）の自動更新も同じ仕組みです。
 
+`data/` のファイルを書き換えたら、これを実行するだけです。
+
 ```bash
-cd kotani-portfolio
-git add -A && git commit -m "変更内容" && git push
+cd ~/kotani-portfolio && ./scripts/publish.sh "9月の説明会を追加"
 ```
+
+このスクリプトが以下をまとめてやります。
+
+1. `data/*.json` の書式チェック（壊れていたら止めます）
+2. コミット
+3. 自動更新のコミットを取り込む
+4. push
+
+`git` を直接使う場合は、**必ずコミットしてから pull** してください。
+順番を間違えると push が弾かれます。
 
 ---
 

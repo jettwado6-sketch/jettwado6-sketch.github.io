@@ -11,8 +11,16 @@ cd "$(dirname "$0")/.."
 
 # JSON が壊れていたら反映しない（壊れたまま公開されるのを防ぐ）
 for f in data/*.json; do
-  python3 -c "import json,sys;json.load(open(sys.argv[1]))" "$f" \
-    || { echo "❌ $f の書式が壊れています。カンマや括弧を確認してください。"; exit 1; }
+  err=$(python3 -c "
+import json,sys
+try: json.load(open(sys.argv[1]))
+except Exception as e: print(e); sys.exit(1)
+" "$f" 2>&1) || {
+    echo "❌ $f の書式が壊れています。反映を中止しました。"
+    echo "   $err"
+    echo "   （よくある原因: カンマの付け忘れ・余分なカンマ・閉じ括弧の不足）"
+    exit 1
+  }
 done
 
 git add -A
