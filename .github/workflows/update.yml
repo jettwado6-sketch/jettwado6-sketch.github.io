@@ -15,8 +15,9 @@ permissions:
   pages: write                # GitHub Pages に公開するため
   id-token: write
 
+# 同時に2つ走ると push が衝突するため、この workflow は1本ずつ順番に流す
 concurrency:
-  group: pages
+  group: ${{ github.workflow }}
   cancel-in-progress: false
 
 jobs:
@@ -37,16 +38,28 @@ jobs:
 
       - name: 変更があればコミット
         run: |
-          if [ -n "$(git status --porcelain data/)" ]; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/
-            git commit -m "データ自動更新: $(date -u '+%Y-%m-%d')"
-            git push
-            echo "更新をコミットしました"
-          else
+          if [ -z "$(git status --porcelain data/)" ]; then
             echo "変更はありませんでした"
+            exit 0
           fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "データ自動更新: $(date -u '+%Y-%m-%d')"
+
+          # 手動 push と定時実行が重なると push が弾かれる（fetch first）。
+          # 取り込み直してから何度か試す。
+          for i in 1 2 3; do
+            if git push; then
+              echo "更新をコミットしました"
+              exit 0
+            fi
+            echo "push が競合しました。取り込み直して再試行します（$i/3）"
+            git pull --rebase --autostash origin main || exit 1
+            sleep 5
+          done
+          echo "::error::push を3回試しましたが競合が解消しませんでした"
+          exit 1
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
