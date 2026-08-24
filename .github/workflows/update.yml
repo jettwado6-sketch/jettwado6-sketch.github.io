@@ -30,35 +30,39 @@ jobs:
         with:
           python-version: "3.12"
 
-      # 外部APIが一時的に落ちていても、サイト自体は前回のデータで公開し続ける
-      - name: 最新データを取得
-        id: fetch
-        continue-on-error: true
-        run: python3 scripts/update.py
-
-      - name: 変更があればコミット
+      # data/*.json は毎回作り直せる生成物なので、競合させずに
+      # 「常に最新のリモートの上で作り直す」方式にする。
+      # （手動 push と定時実行が重なると、リベースでは中身が衝突して解決できない）
+      - name: 最新データを取得してコミット
         run: |
-          if [ -z "$(git status --porcelain data/)" ]; then
-            echo "変更はありませんでした"
-            exit 0
-          fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git commit -m "データ自動更新: $(date -u '+%Y-%m-%d')"
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
 
-          # 手動 push と定時実行が重なると push が弾かれる（fetch first）。
-          # 取り込み直してから何度か試す。
-          for i in 1 2 3; do
-            if git push; then
+            if ! python3 scripts/update.py; then
+              echo "::warning::一部のデータ取得に失敗しました。前回の値を保持します。"
+              touch /tmp/fetch_failed
+            fi
+
+            if [ -z "$(git status --porcelain data/)" ]; then
+              echo "変更はありませんでした"
+              exit 0
+            fi
+
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -qm "データ自動更新: $(date -u '+%Y-%m-%d')"
+
+            if git push -q origin main; then
               echo "更新をコミットしました"
               exit 0
             fi
-            echo "push が競合しました。取り込み直して再試行します（$i/3）"
-            git pull --rebase --autostash origin main || exit 1
+
+            echo "他の push と競合しました。最新を取り直してやり直します（$attempt/3）"
             sleep 5
           done
-          echo "::error::push を3回試しましたが競合が解消しませんでした"
+          echo "::error::3回試しましたが push できませんでした"
           exit 1
 
       - uses: actions/configure-pages@v5
@@ -70,8 +74,12 @@ jobs:
 
       # 取得に失敗していたら、ジョブを失敗扱いにして気づけるようにする
       # （サイトは前回データのまま公開されているので、表示は壊れません）
+      # 取得に失敗していたらジョブを失敗扱いにして気づけるようにする
+      # （サイトは前回のデータで公開され続けるので、表示は壊れません）
       - name: 取得失敗を通知
-        if: steps.fetch.outcome == 'failure'
         run: |
-          echo "::warning::一部のデータ取得に失敗しました。サイトは前回のデータで公開されています。"
-          exit 1
+          if [ -f /tmp/fetch_failed ]; then
+            echo "::error::一部のデータ取得に失敗しました。サイトは前回のデータで公開されています。"
+            exit 1
+          fi
+          echo "すべて正常に取得できました"
