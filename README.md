@@ -27,16 +27,15 @@ const FORM_ACCESS_KEY = "dd09459b-cd85-4606-bb0b-00db06162823";
 
 GitHub Pages で公開する場合：
 
+**公開済みです： https://yukikotani5.github.io/**
+
+リポジトリ `yukikotani5/yukikotani5.github.io` の main ブランチに push すると、
+GitHub Actions が自動でデプロイします。毎朝6時（日本時間）の自動更新も同じ仕組みです。
+
 ```bash
 cd kotani-portfolio
-git init && git add -A && git commit -m "ポートフォリオサイト"
-gh repo create kotani-portfolio --public --source=. --push
+git add -A && git commit -m "変更内容" && git push
 ```
-
-そのあと GitHub のリポジトリで **Settings → Pages → Source を「GitHub Actions」に変更**してください。
-これで `https://<ユーザー名>.github.io/kotani-portfolio/` に公開され、以後は毎日自動更新されます。
-
-Netlify や Vercel でも、リポジトリを繋いでビルドコマンドなし・公開ディレクトリをルートにすればそのまま動きます。
 
 ---
 
@@ -234,9 +233,6 @@ python3 scripts/build_preview.py
 
 ## 公開後に直しておくとよいところ
 
-- `index.html` の `og:image` を絶対URL（`https://…/assets/profile.jpg`）に変更
-  → X や Facebook で共有したときにサムネイルが出ます
-- 同じく `canonical` のコメントを外して自分のURLを記入
 - `data/profile.json` の `intro`（自己紹介文）は researchmap の経歴をもとにした下書きです。
   ご自身の言葉に書き換えてください
 
