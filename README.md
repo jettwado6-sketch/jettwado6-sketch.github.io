@@ -249,6 +249,28 @@ python3 scripts/build_preview.py
 
 ---
 
+## アクセス解析
+
+GoatCounter で計測しています（Cookieを使わないので同意バナーは不要）。
+計測タグは `index.html` の末尾、ダッシュボードは https://yukikotani5.goatcounter.com/
+
+数字を要約して見るには：
+
+```bash
+python3 scripts/stats.py        # 直近30日
+python3 scripts/stats.py 7      # 直近7日
+```
+
+**APIトークンはリポジトリに置きません。** 次のファイルから読みます。
+
+```
+~/.config/kotani-portfolio/goatcounter.env
+```
+
+トークンを作り直したときは、このファイルの `GOATCOUNTER_TOKEN` を差し替えてください。
+
+---
+
 ## デザインについて
 
 モチーフは**波形トレース**です。ICUのモニター波形とポッドキャストの音声波形は同じかたちをしていて、
