@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-03T23:30:32+00:00",
+ "updatedAt": "2026-10-04T23:49:07+00:00",
  "stats": {
   "total": 96,
   "articles": 76,
   "firstAuthor": 23,
-  "citations": 1548,
+  "citations": 1552,
   "since": 2016
  },
  "top": [
@@ -29,7 +29,7 @@
    "title": "An updated \"norepinephrine equivalent\" score in intensive care as a marker of shock severity",
    "journal": "Crit Care",
    "year": 2023,
-   "citations": 176,
+   "citations": 177,
    "doi": "10.1186/s13054-023-04322-y",
    "url": "https://doi.org/10.1186/s13054-023-04322-y",
    "position": "first",
