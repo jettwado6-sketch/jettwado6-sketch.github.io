@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-08T00:42:21+00:00",
+ "updatedAt": "2026-10-09T00:58:10+00:00",
  "stats": {
   "total": 96,
   "articles": 76,
   "firstAuthor": 23,
-  "citations": 1555,
+  "citations": 1515,
   "since": 2016
  },
  "top": [
@@ -29,7 +29,7 @@
    "title": "An updated \"norepinephrine equivalent\" score in intensive care as a marker of shock severity",
    "journal": "Crit Care",
    "year": 2023,
-   "citations": 177,
+   "citations": 168,
    "doi": "10.1186/s13054-023-04322-y",
    "url": "https://doi.org/10.1186/s13054-023-04322-y",
    "position": "first",
@@ -46,7 +46,7 @@
    "title": "Continuous vs Intermittent Meropenem Administration in Critically Ill Patients With Sepsis: The MERCY Randomized Clinical Trial",
    "journal": "JAMA",
    "year": 2023,
-   "citations": 122,
+   "citations": 114,
    "doi": "10.1001/jama.2023.10598",
    "url": "https://doi.org/10.1001/jama.2023.10598",
    "position": "middle",
@@ -63,7 +63,7 @@
    "title": "Propofol and survival: an updated meta-analysis of randomized clinical trials",
    "journal": "Crit Care",
    "year": 2023,
-   "citations": 96,
+   "citations": 95,
    "doi": "10.1186/s13054-023-04431-8",
    "url": "https://doi.org/10.1186/s13054-023-04431-8",
    "position": "first",
@@ -80,7 +80,7 @@
    "title": "Etomidate as an induction agent for endotracheal intubation in critically ill patients: A meta-analysis of randomized trials",
    "journal": "J Crit Care",
    "year": 2023,
-   "citations": 77,
+   "citations": 62,
    "doi": "10.1016/j.jcrc.2023.154317",
    "url": "https://doi.org/10.1016/j.jcrc.2023.154317",
    "position": "first",
