@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-12T00:13:29+00:00",
+ "updatedAt": "2026-10-13T02:24:50+00:00",
  "youtube": {
   "latest": {
    "label": "最新回",
-   "title": "#47 心外術後、よくなっていたのに再び悪化したら？｜ICUトーク #Shorts",
-   "url": "https://www.youtube.com/watch?v=YvZojQxrATA",
-   "thumbnail": "https://i.ytimg.com/vi/YvZojQxrATA/mqdefault.jpg",
+   "title": "心房細動で「今すぐ困る」のはどんな時？｜ICUトーク #Shorts",
+   "url": "https://www.youtube.com/watch?v=i-JraBzfP3c",
+   "thumbnail": "https://i.ytimg.com/vi/i-JraBzfP3c/mqdefault.jpg",
    "metric": null
   },
   "popular": {
    "label": "よく聴かれている回",
-   "title": "RRTは早く始めればよい？ 開始時期を考える研究｜ICUトーク #Shorts #icuトーク #集中治療 #RRT",
-   "url": "https://www.youtube.com/watch?v=gsc1FWEtnuU",
-   "thumbnail": "https://i.ytimg.com/vi/gsc1FWEtnuU/mqdefault.jpg",
+   "title": "心房細動で「今すぐ困る」のはどんな時？｜ICUトーク #Shorts",
+   "url": "https://www.youtube.com/watch?v=i-JraBzfP3c",
+   "thumbnail": "https://i.ytimg.com/vi/i-JraBzfP3c/mqdefault.jpg",
    "metric": null
   }
  },
@@ -37,9 +37,9 @@
  "voicy": {
   "latest": {
    "label": "最新話",
-   "title": "ICUでの不整脈に関するクリニカル・パール",
-   "url": "https://voicy.jp/channel/848405/8277222",
-   "date": "2026-10-09",
+   "title": "閉塞感ある組織をいかに変えられるか？",
+   "url": "https://voicy.jp/channel/848405/8284740",
+   "date": "2026-10-13",
    "metric": null,
    "thumbnail": null
   },
