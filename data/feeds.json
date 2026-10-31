@@ -1,28 +1,28 @@
 {
- "updatedAt": "2026-10-31T00:21:43+00:00",
+ "updatedAt": "2026-10-31T23:56:23+00:00",
  "youtube": {
   "latest": {
    "label": "最新回",
-   "title": "#95 高酸素と悪い予後 その関連をどう読む？【論文紹介】　 #集中治療　#ICUトーク",
-   "url": "https://www.youtube.com/watch?v=VDVt24Q9aYY",
-   "thumbnail": "https://i.ytimg.com/vi/VDVt24Q9aYY/mqdefault.jpg",
+   "title": "#95 蘇生中にも当てはめてよい？【論文紹介】 #ICUトーク　 #集中治療",
+   "url": "https://www.youtube.com/watch?v=eYqmzlbL02I",
+   "thumbnail": "https://i.ytimg.com/vi/eYqmzlbL02I/mqdefault.jpg",
    "metric": null
   },
   "popular": {
    "label": "よく聴かれている回",
-   "title": "#95 高酸素と悪い予後 その関連をどう読む？【論文紹介】　 #集中治療　#ICUトーク",
-   "url": "https://www.youtube.com/watch?v=VDVt24Q9aYY",
-   "thumbnail": "https://i.ytimg.com/vi/VDVt24Q9aYY/mqdefault.jpg",
+   "title": "#95 蘇生中にも当てはめてよい？【論文紹介】 #ICUトーク　 #集中治療",
+   "url": "https://www.youtube.com/watch?v=eYqmzlbL02I",
+   "thumbnail": "https://i.ytimg.com/vi/eYqmzlbL02I/mqdefault.jpg",
    "metric": null
   }
  },
  "note": {
   "latest": {
    "label": "最新記事",
-   "title": "EBMと標準化の共存が生む真価",
-   "url": "https://note.com/yukikotani5/n/n41069445d0dc",
-   "thumbnail": "https://assets.st-note.com/production/uploads/images/311313550/rectangle_large_type_2_366c02e13e6a932ad46abea95cc856c7.png?fit=bounds&quality=85&width=1280",
-   "date": "2026-09-08",
+   "title": "稀なキャリアの長所と短所",
+   "url": "https://note.com/yukikotani5/n/n53b19660da2e",
+   "thumbnail": "https://assets.st-note.com/production/uploads/images/330454162/rectangle_large_type_2_9fda6ad81b7dfc5260efc36df25a87a6.png?fit=bounds&quality=85&width=1280",
+   "date": "2026-10-31",
    "metric": null
   },
   "popular": {
@@ -48,7 +48,7 @@
    "title": "古くて新しいメイロン®︎",
    "url": "https://voicy.jp/channel/848405/7117573",
    "date": "2025-09-26",
-   "metric": "445 回再生",
+   "metric": "446 回再生",
    "thumbnail": null
   }
  }
