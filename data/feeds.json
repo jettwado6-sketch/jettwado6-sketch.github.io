@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-02T00:13:23+00:00",
+ "updatedAt": "2026-11-03T02:45:21+00:00",
  "youtube": {
   "latest": {
    "label": "最新回",
-   "title": "#95 2群の目標はきれいに分かれる？【論文紹介】 #ICUトーク　 #集中治療",
-   "url": "https://www.youtube.com/watch?v=iIrL9v67xG4",
-   "thumbnail": "https://i.ytimg.com/vi/iIrL9v67xG4/mqdefault.jpg",
+   "title": "#95 有意差なし 診療をどう変える？【論文紹介】 #ICUトーク　 #集中治療",
+   "url": "https://www.youtube.com/watch?v=WH7ds4_DRSQ",
+   "thumbnail": "https://i.ytimg.com/vi/WH7ds4_DRSQ/mqdefault.jpg",
    "metric": null
   },
   "popular": {
    "label": "よく聴かれている回",
-   "title": "#95 2群の目標はきれいに分かれる？【論文紹介】 #ICUトーク　 #集中治療",
-   "url": "https://www.youtube.com/watch?v=iIrL9v67xG4",
-   "thumbnail": "https://i.ytimg.com/vi/iIrL9v67xG4/mqdefault.jpg",
+   "title": "#95 有意差なし 診療をどう変える？【論文紹介】 #ICUトーク　 #集中治療",
+   "url": "https://www.youtube.com/watch?v=WH7ds4_DRSQ",
+   "thumbnail": "https://i.ytimg.com/vi/WH7ds4_DRSQ/mqdefault.jpg",
    "metric": null
   }
  },
@@ -37,9 +37,9 @@
  "voicy": {
   "latest": {
    "label": "最新話",
-   "title": "救急医学会振り返り",
-   "url": "https://voicy.jp/channel/848405/8357553",
-   "date": "2026-10-30",
+   "title": "救急医学会での出会い・再会",
+   "url": "https://voicy.jp/channel/848405/8384283",
+   "date": "2026-11-03",
    "metric": null,
    "thumbnail": null
   },
