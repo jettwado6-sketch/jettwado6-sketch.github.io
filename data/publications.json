@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-11-05T01:17:04+00:00",
+ "updatedAt": "2026-11-06T01:22:11+00:00",
  "stats": {
   "total": 96,
   "articles": 76,
   "firstAuthor": 23,
-  "citations": 1613,
+  "citations": 1614,
   "since": 2016
  },
  "top": [
@@ -12,7 +12,7 @@
    "title": "A Randomized Trial of Intravenous Amino Acids for Kidney Protection",
    "journal": "N Engl J Med",
    "year": 2024,
-   "citations": 195,
+   "citations": 196,
    "doi": "10.1056/nejmoa2403769",
    "url": "https://doi.org/10.1056/nejmoa2403769",
    "position": "middle",

@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-05T01:17:04+00:00",
+ "updatedAt": "2026-11-06T01:22:11+00:00",
  "youtube": {
   "latest": {
    "label": "最新回",
-   "title": "ノルアドレナリンとバソプレシン、併用を保ちながらどう減らす？｜ICUトーク #96 #Shorts",
-   "url": "https://www.youtube.com/watch?v=VNuHhMEgIGg",
-   "thumbnail": "https://i.ytimg.com/vi/VNuHhMEgIGg/mqdefault.jpg",
+   "title": "#98 まれな緊急事態にどう備える？ 個人とチームの準備【お便り回答】",
+   "url": "https://www.youtube.com/watch?v=GSEUE6dh7vU",
+   "thumbnail": "https://i.ytimg.com/vi/GSEUE6dh7vU/mqdefault.jpg",
    "metric": null
   },
   "popular": {
    "label": "よく聴かれている回",
-   "title": "ノルアドレナリンとバソプレシン、併用を保ちながらどう減らす？｜ICUトーク #96 #Shorts",
-   "url": "https://www.youtube.com/watch?v=VNuHhMEgIGg",
-   "thumbnail": "https://i.ytimg.com/vi/VNuHhMEgIGg/mqdefault.jpg",
+   "title": "#98 まれな緊急事態にどう備える？ 個人とチームの準備【お便り回答】",
+   "url": "https://www.youtube.com/watch?v=GSEUE6dh7vU",
+   "thumbnail": "https://i.ytimg.com/vi/GSEUE6dh7vU/mqdefault.jpg",
    "metric": null
   }
  },
@@ -37,9 +37,9 @@
  "voicy": {
   "latest": {
    "label": "最新話",
-   "title": "救急医学会での出会い・再会",
-   "url": "https://voicy.jp/channel/848405/8384283",
-   "date": "2026-11-03",
+   "title": "輸液忍容性をどう評価したらいいのか？",
+   "url": "https://voicy.jp/channel/848405/8405812",
+   "date": "2026-11-06",
    "metric": null,
    "thumbnail": null
   },
