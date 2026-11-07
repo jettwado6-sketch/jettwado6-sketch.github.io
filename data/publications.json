@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-11-06T01:22:11+00:00",
+ "updatedAt": "2026-11-07T00:36:46+00:00",
  "stats": {
   "total": 96,
   "articles": 76,
   "firstAuthor": 23,
-  "citations": 1614,
+  "citations": 1617,
   "since": 2016
  },
  "top": [
@@ -29,7 +29,7 @@
    "title": "An updated \"norepinephrine equivalent\" score in intensive care as a marker of shock severity",
    "journal": "Crit Care",
    "year": 2023,
-   "citations": 176,
+   "citations": 177,
    "doi": "10.1186/s13054-023-04322-y",
    "url": "https://doi.org/10.1186/s13054-023-04322-y",
    "position": "first",
@@ -63,7 +63,7 @@
    "title": "Propofol and survival: an updated meta-analysis of randomized clinical trials",
    "journal": "Crit Care",
    "year": 2023,
-   "citations": 100,
+   "citations": 101,
    "doi": "10.1186/s13054-023-04431-8",
    "url": "https://doi.org/10.1186/s13054-023-04431-8",
    "position": "first",
