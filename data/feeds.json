@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-09T00:32:26+00:00",
+ "updatedAt": "2026-11-10T03:09:13+00:00",
  "youtube": {
   "latest": {
    "label": "最新回",
-   "title": "昇圧薬を減らすたび低血圧になるなら？｜ICUトーク #96 #Shorts",
-   "url": "https://www.youtube.com/watch?v=nZ0XnQguwbI",
-   "thumbnail": "https://i.ytimg.com/vi/nZ0XnQguwbI/mqdefault.jpg",
+   "title": "心房細動が気になる時、昇圧薬はどちらを減らす？｜ICUトーク #96 #Shorts",
+   "url": "https://www.youtube.com/watch?v=Ze2Y3kCt8OU",
+   "thumbnail": "https://i.ytimg.com/vi/Ze2Y3kCt8OU/mqdefault.jpg",
    "metric": null
   },
   "popular": {
    "label": "よく聴かれている回",
-   "title": "昇圧薬を減らすたび低血圧になるなら？｜ICUトーク #96 #Shorts",
-   "url": "https://www.youtube.com/watch?v=nZ0XnQguwbI",
-   "thumbnail": "https://i.ytimg.com/vi/nZ0XnQguwbI/mqdefault.jpg",
+   "title": "心房細動が気になる時、昇圧薬はどちらを減らす？｜ICUトーク #96 #Shorts",
+   "url": "https://www.youtube.com/watch?v=Ze2Y3kCt8OU",
+   "thumbnail": "https://i.ytimg.com/vi/Ze2Y3kCt8OU/mqdefault.jpg",
    "metric": null
   }
  },
@@ -37,9 +37,9 @@
  "voicy": {
   "latest": {
    "label": "最新話",
-   "title": "輸液忍容性をどう評価したらいいのか？",
-   "url": "https://voicy.jp/channel/848405/8405812",
-   "date": "2026-11-06",
+   "title": "【三谷先生コラボ回】稀なキャリアをどう歩く？",
+   "url": "https://voicy.jp/channel/848405/8391753",
+   "date": "2026-11-10",
    "metric": null,
    "thumbnail": null
   },
