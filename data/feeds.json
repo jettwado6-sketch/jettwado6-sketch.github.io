@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-19T02:15:53+00:00",
+ "updatedAt": "2026-11-20T02:00:16+00:00",
  "youtube": {
   "latest": {
    "label": "最新回",
-   "title": "急変カート、何がどこにあるか説明できますか？｜ICUトーク98",
-   "url": "https://www.youtube.com/watch?v=DnFLf-vkfy0",
-   "thumbnail": "https://i.ytimg.com/vi/DnFLf-vkfy0/mqdefault.jpg",
+   "title": "研修ではできたのに、病棟ではできないのはなぜ？｜ICUトーク98",
+   "url": "https://www.youtube.com/watch?v=fzucfOmoqTE",
+   "thumbnail": "https://i.ytimg.com/vi/fzucfOmoqTE/mqdefault.jpg",
    "metric": null
   },
   "popular": {
    "label": "よく聴かれている回",
-   "title": "急変カート、何がどこにあるか説明できますか？｜ICUトーク98",
-   "url": "https://www.youtube.com/watch?v=DnFLf-vkfy0",
-   "thumbnail": "https://i.ytimg.com/vi/DnFLf-vkfy0/mqdefault.jpg",
+   "title": "研修ではできたのに、病棟ではできないのはなぜ？｜ICUトーク98",
+   "url": "https://www.youtube.com/watch?v=fzucfOmoqTE",
+   "thumbnail": "https://i.ytimg.com/vi/fzucfOmoqTE/mqdefault.jpg",
    "metric": null
   }
  },
@@ -37,9 +37,9 @@
  "voicy": {
   "latest": {
    "label": "最新話",
-   "title": "大好きなポッドキャスト番組に送ったトークテーマが採用された話",
-   "url": "https://voicy.jp/channel/848405/8473309",
-   "date": "2026-11-17",
+   "title": "昇圧剤、2剤目はいつ足せばよいのか？",
+   "url": "https://voicy.jp/channel/848405/8493871",
+   "date": "2026-11-20",
    "metric": null,
    "thumbnail": null
   },
