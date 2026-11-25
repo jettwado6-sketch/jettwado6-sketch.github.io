@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-11-24T05:07:47+00:00",
+ "updatedAt": "2026-11-25T03:56:44+00:00",
  "stats": {
   "total": 96,
   "articles": 76,
   "firstAuthor": 23,
-  "citations": 1931,
+  "citations": 1932,
   "since": 2016
  },
  "top": [
@@ -46,7 +46,7 @@
    "title": "Continuous vs Intermittent Meropenem Administration in Critically Ill Patients With Sepsis: The MERCY Randomized Clinical Trial",
    "journal": "JAMA",
    "year": 2023,
-   "citations": 137,
+   "citations": 138,
    "doi": "10.1001/jama.2023.10598",
    "url": "https://doi.org/10.1001/jama.2023.10598",
    "position": "middle",
@@ -63,7 +63,7 @@
    "title": "Propofol and survival: an updated meta-analysis of randomized clinical trials",
    "journal": "Crit Care",
    "year": 2023,
-   "citations": 118,
+   "citations": 119,
    "doi": "10.1186/s13054-023-04431-8",
    "url": "https://doi.org/10.1186/s13054-023-04431-8",
    "position": "first",
